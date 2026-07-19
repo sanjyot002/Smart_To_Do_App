@@ -13,7 +13,9 @@ function Login() {
         <label>Password :</label>
         <input type="password" placeholder="Enter Your Password" className="mb-1 font-medium rounded-md border border-gray-600 px-3 py-1 outline-none focus:ring-1 focus:ring-black-100 transition duration-400"/>
         </div>
+        <h4 className="font-medium items-left">Forgot password?</h4>
         <button type="submit" className=" py-2 bg-black text-white rounded-lg hover:bg-gray-700 transition-all duration-500 hover:shadow-lg">Login</button>
+        <p>Don't have an account? <a href="">SignUp</a> </p>
       </form>
     </div>
     </div>
